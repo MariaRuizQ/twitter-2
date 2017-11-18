@@ -2,62 +2,73 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Twitter</title>
     <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
-      <section>
-        <div>
-          <ul>
-            <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a><a href="#"> Inicio</a></li>
-            <li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a><a href="#"> Notificaciones</a></li>
-            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a><a href="#"> Mensajes</a></li>
-          </ul>
-        </div>
-      </section>
-      <section>
-          <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      </section>
-      <section>
-        <div>
-          <form class="" action="index.html" method="post" placeholder = '¿Qué estás pensando?'>
-            <input type="text" name="" value="" placeholder = 'Buscar en Twitter'>
-            <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
-          </form>
-        </div>
-        <div>
-          <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
-        </div>
-        <div>
-          <button type="button" name="button">Twittear</button>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section class="parte-izquierda">
-        <div>
-          <div><a href="#"><div></div></a></div>
-          <div><a href="#"><a href=""><i class="fa fa-camera" aria-hidden="true"></i></a></a></div>
-          <div>
-            <div><a href="#"><div>María Teresa Ruiz Quispe</div></a></div>
-            <div><a href="#"><div>@RuizMariaQuispe</div></a></div>
-            <div><a href="#"><div>Tweets</div></a></div>
-            <div><a href="#"><div>0</div></a></div>
-          </div>
-        </div>
-        <div>
-          <div>
-            <p>Tendencias para ti</p>
-          </div>
-          <a href="#">
+      <div class="header">
+        <div class="contenedor fijando-cajas">
+          <section class="nav">
+            <div>
+              <ul>
+                <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a><a href="#"> Inicio</a></li>
+                <li><a href="#"><i class="fa fa-bell" aria-hidden="true"></i></a><a href="#"> Notificaciones</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a><a href="#"> Mensajes</a></li>
+              </ul>
+            </div>
+          </section>
+          <section class="logo">
+              <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </section>
+          <section class="button-twittear">
+            <div>
+              <button type="button" name="button">Twittear</button>
+            </div>
+            <div>
+              <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
+            </div>
+            <div>
 
-          </a>
+                <input type="text" name="" value="" placeholder = 'Buscar en Twitter'>
+                <span>
+                <a href=""><i class="fa fa-search" aria-hidden="true"></i></a>
+                </span>
+
+            </div>
+          </section>
+       </div>
+      </div>
+    </header>
+    <main class="contenedor fijando-cajas">
+      <section class="parte-izquierda">
+        <div class="parte-arriba">
+          <div class="primero"><a href="#"><div></div></a></div>
+          <div class="segundo"><a href="#"><a href=""><i class="fa fa-camera" aria-hidden="true"></i></a></a></div>
+          <div class="tercero">
+            <div class="izquierda uno"><a href="#"><div>María Teresa Ruiz Quispe</div></a></div>
+            <div class="izquierda dos"><a href="#"><div>@RuizMariaQuispe</div></a></div>
+            <div class="abajo"><a href="#"><div>Tweets</div></a></div>
+            <div class="abajo-dos"><a href="#"><div>0</div></a></div>
+          </div>
+        </div>
+        <div class="parte-abajo">
+          <div>
+            <p class="palabra">Tendencias para ti <a  class="enlace" href="#">Cambiar</a></p>
+          </div>
         </div>
       </section>
       <section class="parte-central">
-
+          <div class="parte-twitter">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <textarea name="name" rows="1" cols=""></textarea>
+            <!--<div class="button-twitt">
+              <button type="button" name="button"></button>
+            </div>
+            <div class=""></div>-->
+          </div>
       </section>
       <section class="parte-derecha">
 

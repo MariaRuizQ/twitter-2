@@ -1,0 +1,218 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  padding-left: 150px;
+  padding-right: 170px;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000;
+  background-color: white;
+  display: table;
+}
+
+.header{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.contenedor:before, .contenedor:after{
+  display: table;
+  content: "";
+}
+
+.fijando-cajas{
+  display: flex;
+  flex-wrap: wrap;
+  content: "";
+  clear: both;
+}
+
+.nav{
+  width: 330px;
+  margin-top: 5px;
+}
+
+.nav div ul{
+  position: relative;
+  list-style: none;
+}
+
+.nav div ul li a{
+  float: left;
+  display: table;
+  text-decoration: none;
+  font-weight: 700;
+  color: #ccccb3;
+}
+/*
+.nav div ul li a:hover{
+  padding-bottom: 18px;
+  border-bottom: solid 2px;
+  border-color: red;
+}*/
+
+.nav div ul li a i{
+  font-size: 20px;
+  margin-left: 18px;
+  margin-right: 3px;
+}
+
+.logo{
+  width: 600px;
+  text-align: center;
+}
+
+.logo a{
+  color: #3399ff;
+  font-size: 25px;
+}
+
+.button-twittear{
+  width: 330px;
+  margin-top: 2.5px;
+}
+
+.button-twittear div{
+  position: relative;
+  float: right;
+}
+
+.button-twittear div input{
+  width: 200px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e6f2ff;
+  padding: 8px;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 70px;
+  background-color: #e6f2ff;
+}
+
+.parte-izquierda{
+  width: 290px;
+  margin: 20px;
+}
+
+.parte-arriba{
+  height: 200px;
+}
+
+.primero{
+  height: 80px;
+  background-color: #3399ff;
+}
+.segundo{
+  border-color: white;
+}
+
+.segundo a{
+  position: absolute;
+  font-size: 30px;
+  padding: 20px;
+  background: #3399ff;
+  border-radius: 50%;
+  margin-top: -40px;
+  margin-left: 10px;
+}
+
+.segundo a i{
+  color: white;
+}
+
+.tercero{
+  height: 120px;
+  background-color: white;
+}
+
+.tercero div{
+  padding-left: 10px;
+}
+.tercero a{
+  text-decoration: none;
+}
+
+.izquierda div{
+  float: right;
+  margin-right: 10px;
+}
+
+.uno div{
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.uno div:hover{
+  border-bottom: solid 1px;
+}
+
+.dos div{
+  color:#ccccb3;
+  font-weight: 500;
+  margin-right: 70px;
+}
+
+.dos div:hover{
+  border-bottom: solid 1px;
+}
+
+.abajo div{
+  color: #ccccb3;
+  padding-top: 60px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.abajo div:hover{
+  color: #3399ff;
+}
+
+.abajo-dos div{
+  color: #3399ff;
+  font-weight: 700;
+}
+
+.parte-abajo{
+  height: 500px;
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+}
+
+.palabra{
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.enlace{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 100;
+  margin-left: 2px;
+}
+
+.parte-central{
+  width: 590px;
+  margin: 20px;
+  /*background-color: #e6ffff;*/
+}
+
+.parte-twitter{
+  background-color: #e6ffff;
+  padding: 20px;
+}
