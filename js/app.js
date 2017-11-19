@@ -52,7 +52,7 @@ function anadir() {
     if (minutos < 10) {
       minutos = "0" + minutos;
     }
-    pnom.innerHTML =
+    pnom.innerHTML = '<i class="fa fa-user" aria-hidden="true"></i> <a href="#">María Teresa Ruiz Quispe</a> @RuizMariaQuispe' + ' ' +
       hora +
       ":" +
       minutos;
