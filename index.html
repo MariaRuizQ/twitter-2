@@ -55,18 +55,18 @@
           </div>
         </div>
       </section>
-      <section class="parte-central">
-          <div class="parte-twitter">
+      <section id='comentarios' class="parte-central">
+          <div id='nuevo' class="parte-twitter" id='twitter'>
             <i class="fa fa-user" aria-hidden="true"></i>
-            <textarea name="name" rows="1" cols="" placeholder="¿Qué está pasando?"></textarea>
-            <!--<div class="button-twitt">
-              <button type="button" name="button"></button>
+            <textarea onclick="caracteres();" onblur="caracteres();" onkeypress="caracteres();" id='textarea' name="name" rows="1" cols=""></textarea autofocus>
+            <div class="">
+              <button id="boton" class="boton">TWEET</button>
+              <div id="characters-remaining">140</div>
             </div>
-            <div class=""></div>-->
           </div>
       </section>
       <section class="parte-derecha">
-        
+
       </section>
     </main>
 
